@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Teach English</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Изучение Английских слов</h1>
+    <div class="word-card">
+      <div class="word" id="word">Загрузка...</div>
+      <div class="transcription" id="transcription"></div>
+      <div class="translation" id="translation"></div>
+      <div class="example-section">
+        <div class="example-label">Пример:</div>
+        <div class="example" id="example"></div>
+        <div class="example-translation" id="exampleTranslation"></div>
+      </div>
+    </div>
+    <div class="buttons">
+      <button id="new-word">Новое слово</button>
+      <button id="add-to-dict">Добавить в словарь</button>
+      <button id="open-dict">Словарь</button>
+    </div>
+    <div id="error-message" class="error"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

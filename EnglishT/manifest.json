@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Английский в кармане / Pocket English",
+  "version": "1.0",
+  "description": "Расширение для изучения английских слов с примерами",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "icons/icon48.png"
+  },
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://skyeng-public-api.vercel.app/*"
+  ]
+}

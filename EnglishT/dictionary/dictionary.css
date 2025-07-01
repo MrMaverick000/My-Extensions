@@ -1,0 +1,90 @@
+body {
+  width: 400px;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 20px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.word-item {
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.word-item .word {
+  font-weight: bold;
+  color: #3498db;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.word-item .transcription {
+  color: #7f8c8d;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.word-item .translation {
+  color: #27ae60;
+  margin-bottom: 10px;
+}
+
+.example-section {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed #e0e0e0;
+}
+
+.example-label {
+  font-size: 13px;
+  color: #95a5a6;
+  margin-bottom: 3px;
+}
+
+.example {
+  color: #34495e;
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+
+.example-translation {
+  color: #7f8c8d;
+  font-style: italic;
+  font-size: 13px;
+}
+
+#back-button {
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 20px;
+  transition: background-color 0.2s;
+}
+
+#back-button:hover {
+  background-color: #2980b9;
+}
+
+#dictionary-list {
+  max-height: 500px;
+  overflow-y: auto;
+  padding-right: 5px;
+}
